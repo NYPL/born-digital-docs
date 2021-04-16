@@ -41,7 +41,7 @@ The information on this site applies to born-digital audio and video created by 
 
 **Digital Preservation (DP)-** Responsible for and monitors policy for digital objects in collections, accessions born-digital objects, transfers digital objects to secure storage, monitors and retrieves digital objects from storage, and consults on digital collections as requested.
 
-**Digital Research-** The Digital Research Division (DIRES) focuses on the preservation and sharing of digital research materials. DIRES includes DP; Digital Archives; PAMI; Strategy and Project; Copyright, Permissions, and Information Policy; Digital Collections Services; Metadata Services Unit; Digital Imaging Unit (DIU)
+**Digital Research-** The Digital Research Division (DIRES) focuses on the preservation and sharing of digital research materials. DIRES includes DP; Digital Archives; PAMI; Strategy and Project; Copyright, Permissions, and Information Policy; Digital Collections Services; Metadata Services Unit; Digital Imaging Unit (DIU). 
 
 **Preservation of Audio and Moving Image (PAMI)-** responsible for preparation of special collections audiovisual or moving image media for preservation and access. Part of Digital Collections Services.
 
