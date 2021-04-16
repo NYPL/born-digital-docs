@@ -35,7 +35,7 @@ The information on this site applies to born-digital audio and video created by 
 
 **Access-** The processes used to make material available for NYPL’s users. In this workflow, access is provided through Digital Collections, curator-access to backend systems, or mediated workstations in reading rooms. reference. 
 
-## Stakeholders
+### Stakeholders
 
 **Curatorial-** The NYPL Research Libraries’ collections are developed by a number of curatorial departments across the research centers. Many curatorial departments actively acquire born-digital materials. 
 
