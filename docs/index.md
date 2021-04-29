@@ -16,7 +16,7 @@ The information on this site applies to born-digital audio and video created by 
 * [Dance Oral History Project](https://www.nypl.org/oral-history-project-dance){:target="_blank"}
 * Dance Original Documentation  
 
-The site contains sections for curatorial staff and preservation staff.
+The site contains sections for curatorial staff and preservation staff. All curatorial units are welcome to use the workflows described on this site.  
 
 The Digital Archives program facilitates the management of all born-digital portions of archival acquisitions by the 11 curatorial units of the NYPL Research Libraries. For information on other types of born-digital acquisitions see: [Digital Archives](https://nypl.github.io/digarch/){:target="_blank"}
 
