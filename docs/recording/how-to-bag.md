@@ -1,3 +1,9 @@
+---
+layout: default
+title: How to use BagIt/Bagger
+nav_order: 3
+parent: Recording
+---
 # How to use BagIt to package born-digital audiovisual files
 
 **BagIt** is a hierarchical file packaging format designed to support disk-based storage and network transfer of arbitrary digital content. 
