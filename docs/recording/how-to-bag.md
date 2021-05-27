@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to use BagIt/Bagger
-nav_order: 3
+nav_order: 4
 parent: Recording
 ---
 # How to use BagIt to package born-digital audiovisual files
@@ -16,11 +16,11 @@ The amount of time needed for a bag to be created, will depend on the speed and 
 
 Files must be organized according to the specified directory structure. For more information on this specification, please refer to the Born Digital Documentation: File and Packaging Specifications page. There should not be additional folders than those outlined below.
 
-{Content Name}
-    ArchiveOriginals
-    EditMasters
-    ServiceCopies
-    Images
+- {Content Name}
+  - ArchiveOriginals
+  - EditMasters
+  - ServiceCopies
+  - Images
 
 ## Instructions to use Bagger, the BagIt Graphical User Interface:
 These instructions assume that you have Bagger installed on your workstation, if that’s not the case go to the Install Bagger instructions.

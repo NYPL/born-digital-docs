@@ -88,4 +88,4 @@ OR
 * Double-click bagger.  
 OR 
 * Double-click bagger alias.
-* See [How to bag]() to create packages.
+* See [How to bag]({% link docs/recording/how-to-bag.md %}) to create packages.
