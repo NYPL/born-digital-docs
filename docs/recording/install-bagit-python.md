@@ -9,7 +9,7 @@ parent: Recording
 
 These instructions assume you are comfortable with command-line interfaces such as Terminal and package managers like `pip` and `homebrew`.
 
-If you are not familiar with command-line interfaces, we strongly recommend using Bagger instead of bagit-python. If you are familiar with command-line interfaces, you may prefer bagit-python to Bagger.
+If you are not familiar with command-line interfaces, we strongly recommend using [Bagger](install-bagger.html) instead of bagit-python. If you are familiar with command-line interfaces, you may prefer bagit-python to Bagger.
 
 The following instructions can be used for Mac, Linux, and Windows computers, unless otherwise noted.
 
@@ -24,4 +24,4 @@ The following instructions can be used for Mac, Linux, and Windows computers, un
 
 ### Run bagit-python
 
-* See [How to bag]({{site.url}}{% link docs/recording/how-to-bag.md %}) to create packages.
+* See [Bagging Files]({{site.url}}{% link docs/recording/how-to-bag.md %}) to create packages.
