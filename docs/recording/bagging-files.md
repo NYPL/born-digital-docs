@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to use BagIt/Bagger
+title: Bagging Files
 nav_order: 4
 parent: Recording
 ---
@@ -14,7 +14,7 @@ The amount of time needed for a bag to be created, will depend on the speed and 
 
 ## Arrange the files into folders
 
-Files must be organized according to the specified directory structure. For more information on this specification, please refer to the Born Digital Documentation: File and Packaging Specifications page. There should not be additional folders than those outlined below.
+Files must be organized according to the specified directory structure. For more information on this specification, please refer to the Born Digital Documentation: [File and Packaging Specifications](file-and-packaging-specifications.html) page. There should not be additional folders than those outlined below.
 
 - {Content Name}
   - ArchiveOriginals
@@ -23,19 +23,19 @@ Files must be organized according to the specified directory structure. For more
   - Images
 
 ## Instructions to use Bagger, the BagIt Graphical User Interface:
-These instructions assume that you have Bagger installed on your workstation, if that’s not the case go to the Install Bagger instructions.
+These instructions assume that you have Bagger installed on your workstation, if that’s not the case go to the [Install Bagger](install-bagger.html) instructions.
 
 1. Open Bagger
 2. Click on ‘Create bag in place’ on the top menu bar
-3. In the dialog box, navigate to the directory where your files are located on the ‘Select data’ field
-4. Select ‘no profile’ and click ‘OK’
+3. In the dialog box, navigate to the directory where your files are located on the ‘Select data’ field.
+4. Select ‘no profile’ and click ‘OK’.
 5. After the dialog box confirms that a bag was created successfully, verify the bag by clicking on the ‘Is Bag Complete’ section on the top main menu. 
-6. If bag is complete, move the bag to the transfer storage device (G-drive or external hard-drive)
+6. If bag is complete, move the bag to the transfer storage device (Google Drive or external hard-drive).
 
 ## Alternative: Instructions to use bagit-python, the BagIt Command Line Interface:
-These instructions assume that you have bagit-python installed on your workstation, if that’s not the case go to the Install bagit-python instructions.
+These instructions assume that you have bagit-python installed on your workstation, if that’s not the case go to the [Install bagit-python](install-bagit-python.html) instructions.
 
-1. Open your terminal
-2. Enter the following, including the final space, `bagit.py --md5 ` and then either drag-and-drop the folder icon for the directory where your files are located or type in the path for that directory
+1. Open your terminal.
+2. Enter the following, including the final space, `bagit.py --md5 ` and then either drag-and-drop the folder icon for the directory where your files are located or type in the path for that directory.
 3. After the process finishes, verify the bag by running the following command `bagit.py --validate --completeness-only /path/to/bag/`
-4. If bag is complete, move the bag to the transfer storage device (G-drive or external hard-drive)
+4. If bag is complete, move the bag to the transfer storage device (Google Drive or external hard-drive).

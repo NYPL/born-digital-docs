@@ -2,12 +2,12 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Born Digital Docs stub page."
+description: "Born Digital Docs home page."
 permalink: /
 has_children: true
 ---
 
-# Original documentation for Born-Digital Audio and Moving Image material at NYPL.
+# Documentation for Acquiring Born-Digital Audio and Moving Image material at NYPL.
 The information on this site applies to born-digital audio and video created by NYPL to add to the historical record. Interviews, performances, lectures, and public programming conducted by NYPL are included in this documentation.  
 
 ### Projects

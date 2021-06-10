@@ -24,4 +24,4 @@ The following instructions can be used for Mac, Linux, and Windows computers, un
 
 ### Run bagit-python
 
-* See [Bagging Files]({{site.url}}{% link docs/recording/how-to-bag.md %}) to create packages.
+* See [Bagging Files](bagging-files.html) to create packages.
