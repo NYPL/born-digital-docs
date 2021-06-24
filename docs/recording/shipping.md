@@ -6,8 +6,8 @@ parent: Recording
 ---
 
 ## Shipping Hard Drives
-When you are unable to send files via Google Drive you can ship a hard drive with completed packages to NYPL. See [How to Bag](){:target="_blank"}.
-* Complete any [preview process]() needed with the curator/manager before sending files.
+When you are unable to send files via Google Drive you can ship a hard drive with completed packages to NYPL. See [Bagging Files](bagging-files.html){:target="_blank"}.
+* Complete any [Review process](reviewing.html) needed with the curator/manager before sending files.
 * Contact [Digital Preservation](mailto:digitalarchives@nypl.org) and the curator/manager you are working with to confirm that you will be shipping a hard drive.
 * Choose a carrier like UPS or FedEX. Ask if you would like to use another carrier.
 * Include shipping charges in your invoice.

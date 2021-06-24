@@ -1,7 +1,7 @@
 ---
 layout: default
 title: File and Packaging Specifications
-nav_order: 1
+nav_order: 0
 parent: Recording
 ---
 # File and Packaging Specifications
@@ -231,4 +231,4 @@ The following is an example of an oral history captured using a cellphone app.
 		* mao_20210223interviewjanedoe_portrait.jpeg
 		* mao_20210223interviewjanedoe_interviewer.jpg
 
-Once organized according to this structure, files should be bagged according to the Library of Congress BagIt File Packaging Format. Specific instructions on how to bag files may be found in [Bagging Files for Submission](docs/recording/bagging-files-for-submission).
+Once organized according to this structure, files should be bagged according to the Library of Congress BagIt File Packaging Format. Specific instructions on how to bag files may be found in [Bagging Files](bagging-files) for submission.

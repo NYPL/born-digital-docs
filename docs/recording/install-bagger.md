@@ -12,7 +12,7 @@ This document includes instructions for Windows and Mac.
 
 Bagger requires Java. Instructions for Java are included in this document.
 ## Using Bagger
-Create a submission package after any applicable service copies have been [reviewed]() and approved. Once folders are organized according to the [packaging standard](file-and-packaging-specifications.html) use Bagger to create a submission package.  
+Create a submission package after any applicable service copies have been [reviewed](reviewing.html) and approved. Once folders are organized according to the [packaging standard](file-and-packaging-specifications.html) use Bagger to create a submission package.  
 
 ## Java
 Before installing Bagger check the computer's Java Runtime Environment.
@@ -58,7 +58,7 @@ Before installing Bagger check the computer's Java Runtime Environment.
 * Double-click bagger.bat  
 OR 
 * Double-click bagger shortcut.
-* See [How to bag]() to create packages.
+* See [Bagging Files](bagging-files.html) to create packages.
 
 ### Mac
 #### Confirm Java is installed
@@ -88,4 +88,4 @@ OR
 * Double-click bagger.  
 OR 
 * Double-click bagger alias.
-* See [How to bag]({% link docs/recording/how-to-bag.md %}) to create packages.
+* See [Bagging Files](bagging-files.html) to create packages.
