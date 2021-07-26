@@ -50,9 +50,9 @@ divisioncode_contentcode_purposecode_suffix.extension
 	* mym - Music Division
 	* myt - Theater Division (includes TOFT)
 
-* Content Name (required): Filenames must contain a code unique to the recording. If a classmark has been provided by the library, this should be included as a single, unspaced term. For examle, NCOV 420 becomes ncov420. If there is no classmark, a code be created using the date of recording in yyyymmdd format and a reference to the content. For example, 20210431hellodolly.
+* Content Name (required): Filenames must contain a code unique to the recording. If a classmark has been provided by the library, this should be included as a single, unspaced term. For examle, NCOV 421 becomes ncov421. If there is no classmark, a code be created using the date of recording in yyyymmdd format and a reference to the content. For example, 20210431hellodolly.
 
-* Purpose Code (for AOs, PMs, SCs, Images): Preservation masters and their service copies should include a short phrase to describe their contents. There is no controlled vocabulary but suggested terms include as wide, close, interviewer, subject, gopro, or similar. For example, myd_ncov420_wide_pm.mov.
+* Purpose Code (for AOs, PMs, SCs, Images): Preservation masters and their service copies should include a short phrase to describe their contents. There is no controlled vocabulary but suggested terms include as wide, close, interviewer, subject, gopro, or similar. For example, myt_ncov421_wide_pm.mov.
 
 * Suffix: Filenames must include one of the following suffixes immediately before the extension:
 	* ao - archive originals
@@ -61,14 +61,14 @@ divisioncode_contentcode_purposecode_suffix.extension
 	* sc - service copies
 
 Some examples of filenames using all elements of this filenaming specification in order:
-* myd_ncov420_wide_ao - folder containing the AVCHD files for the wide shot of acquisition ncov420 by the Dance division
-* myd_ncov420_wide_pm.mov - video file created from the archive original of the wide shot of acquisition ncov420 by the Dance division
-* myd_ncov420_em.mov - video edited together from all camera shots for acquisition ncov420 by the Dance division
-* myd_ncov420_wide_sc.mp4 - video derived from the wide shot of acquisition ncov420 by the Dance division
-* myd_ncov420_sc.mp4 - video derived from the the edit master for acquisition ncov420 by the Dance division
-* myd_ncov420_sc.srt - a caption file for the audio of the service file
-* myd_ncov420_interviewee.jpeg - image of the interview subject for acquistion ncov420 by the Dance division
-* myd_ncov420.prproj - the Adobe Premiere project file for creating the edit from elements
+* myt_ncov421_wide_ao - folder containing the AVCHD files for the wide shot of acquisition ncov421 by the Dance division
+* myt_ncov421_wide_pm.mov - video file created from the archive original of the wide shot of acquisition ncov421 by the Dance division
+* myt_ncov421_em.mov - video edited together from all camera shots for acquisition ncov421 by the Dance division
+* myt_ncov421_wide_sc.mp4 - video derived from the wide shot of acquisition ncov421 by the Dance division
+* myt_ncov421_sc.mp4 - video derived from the the edit master for acquisition ncov421 by the Dance division
+* myt_ncov421_sc.srt - a caption file for the audio of the service file
+* myt_ncov421_interviewee.jpeg - image of the interview subject for acquistion ncov421 by the Dance division
+* myt_ncov421.prproj - the Adobe Premiere project file for creating the edit from elements
 
 ## Format Specifications
 The following specifications represent baseline requirements for file formats. Additional formats and codecs may be added upon request after consulting with Digital Preservation, PAMI, and curatorial staff.
@@ -196,23 +196,23 @@ There should be no additional folders.
 
 The following is an example of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format.
 
-* ncov420
+* ncov421
 	* ArchiveOriginals
-		* myd_ncov420_wide_ao
+		* myt_ncov421_wide_ao
 			* XDROOT
-		* myd_ncov420_close_ao.mp4
+		* myt_ncov421_close_ao.mp4
 	* EditMasters
-		* myd_ncov420_em.mov
-		* myd_ncov420_em.srt
+		* myt_ncov421_em.mov
+		* myt_ncov421_em.srt
 	* ServiceCopies
-		* myd_ncov420_wide_sc.mp4
-		* myd_ncov420_close_sc.mp4
-		* myd_ncov420_sc.mp4
-		* myd_ncov420_sc.srt
+		* myt_ncov421_wide_sc.mp4
+		* myt_ncov421_close_sc.mp4
+		* myt_ncov421_sc.mp4
+		* myt_ncov421_sc.srt
 	* Images
-		* myd_ncov420_titlecard.jpeg
+		* myt_ncov421_titlecard.jpeg
 	* ProjectFiles
-		* myd_ncov420.prproj
+		* myt_ncov421.prproj
 
 The following is an example of an oral history captured using a cellphone app.
 
