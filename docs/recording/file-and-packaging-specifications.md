@@ -4,7 +4,6 @@ title: File and Packaging Specifications
 nav_order: 0
 parent: Recording
 ---
-# File and Packaging Specifications
 
 The document outlines the specifications for born-digital media recorded for NYPL's collections.
 
@@ -12,24 +11,17 @@ The document outlines the specifications for born-digital media recorded for NYP
 
 Specifications for every file depend on its purpose. NYPL recognizes 4 class of media files.
 
-* Archive Original (AO): The raw files from the recording device. For example, a AVCHD package.
-
+* Archive Original (AO): The raw files as exported from the recording device. For example, a AVCHD package or H264/MOV.
 * Edit Masters (EM): A single file created from editing together the output of the recording devices and adding information such as titles and credits. For example, a single MOV that cuts together wide shots, close shots, titles, and credits.
-
 * Service Copies (SC): Single files transcoded from each of the Archive Originals and Edit Master files. For example, an MP4 of the AO AVCHD example above.
-
 * Images (Optional): still images captured to accompany the audio or video documentation
-
 * Project Files (Optional): files created by NLEs to manage the composition of timelines
-
 * Captions (Optional): Timed transcripts of the audio.
-
 * Transcripts (Options): Untimed transcripts of the audio.
 
-
 ## File Names
-Filenames must follow consistent across all files. For folder-based formats like AVCHD, original file names within the folder should be left unaltered and the top-level folder should be named in accordance with the rules below about filenames.
 
+Filenames must follow consistent across all files. For folder-based formats like AVCHD, original file names within the folder should be left unaltered and the top-level folder should be named in accordance with the rules below about filenames.
 
 ### General rules
 
@@ -40,27 +32,28 @@ Filenames must follow consistent across all files. For folder-based formats like
 Every filename should begin with the same prefix.
 
 ### Structure and order of filename elements
+
 The structure of file names is as follows:
 divisioncode_contentcode_purposecode_suffix.extension
 
 * Division Code (required): Filenames should begin with a 3-digit NYPL division code. Division codes are as follows:
-	* mao - Manuscripts and Rare Books Division
-	* myd - Jerome Robbins Dance Division
-	* myh - Rodgers & Hammerstein Division
-	* mym - Music Division
-	* myt - Theater Division (includes TOFT)
+  * mao - Manuscripts and Rare Books Division
+  * myd - Jerome Robbins Dance Division
+  * myh - Rodgers & Hammerstein Division
+  * mym - Music Division
+  * myt - Theater Division (includes TOFT)
 
 * Content Name (required): Filenames must contain a code unique to the recording. If a classmark has been provided by the library, this should be included as a single, unspaced term. For examle, NCOV 421 becomes ncov421. If there is no classmark, a code be created using the date of recording in yyyymmdd format and a reference to the content. For example, 20210431hellodolly.
 
-* Purpose Code (for AOs, PMs, SCs, Images): Preservation masters and their service copies should include a short phrase to describe their contents. There is no controlled vocabulary but suggested terms include as wide, close, interviewer, subject, gopro, or similar. For example, myt_ncov421_wide_pm.mov.
+* Purpose Code (for AOs, EMs, SCs, Images): Archive Originals and their service copies should include a short phrase to describe their contents. There is no controlled vocabulary but suggested terms include as wide, close, interviewer, subject, gopro, or similar. For example, myt_ncov421_wide_pm.mov.
 
 * Suffix: Filenames must include one of the following suffixes immediately before the extension:
-	* ao - archive originals
-	* pm - preservation masters
-	* em - edit masters
-	* sc - service copies
+  * ao - archive originals
+  * em - edit masters
+  * sc - service copies
 
 Some examples of filenames using all elements of this filenaming specification in order:
+
 * myt_ncov421_wide_ao - folder containing the AVCHD files for the wide shot of acquisition ncov421 by the Dance division
 * myt_ncov421_wide_pm.mov - video file created from the archive original of the wide shot of acquisition ncov421 by the Dance division
 * myt_ncov421_em.mov - video edited together from all camera shots for acquisition ncov421 by the Dance division
@@ -71,6 +64,7 @@ Some examples of filenames using all elements of this filenaming specification i
 * myt_ncov421.prproj - the Adobe Premiere project file for creating the edit from elements
 
 ## Format Specifications
+
 The following specifications represent baseline requirements for file formats. Additional formats and codecs may be added upon request after consulting with Digital Preservation, PAMI, and curatorial staff.
 
 ## Video Format Specifications
@@ -93,8 +87,7 @@ Archive original files should use whatever formats are native to the recording e
 |  Audio Sampling Rate  |  44.1 kHz or greater  |  -  |
 |  Audio Channels  |  Stereo Pair  |  -  |
 
-
-### Preservation and Edit Master Video Files
+### Edit Master Video Files
 
 |  Attribute  |  Preferred Spec  |  Accepted  |
 |  -----------  |  -----------  |  -----------  |
@@ -111,6 +104,7 @@ Archive original files should use whatever formats are native to the recording e
 |  Audio Channels  |  Stereo Pair, Dolby  |  -  |
 
 ### Service File Video Files
+
 Service files should not be upsampled if their source files are under spec.
 
 |  Attribute  |  Spec  |
@@ -149,6 +143,7 @@ Service files should not be upsampled if their source files are under spec.
 |  Audio Channels  |  Recorder Native, Stereo Pair  |  -  |
 
 ### Service Copy Audio Files
+
 Service files should not be upsampled if their source files are under spec.
 
 |  Attribute  |  Spec  |
@@ -179,16 +174,15 @@ Service files should not be upsampled if their source files are under spec.
 |  File Format  |  PDF  |  -  |
 |  Text Encoding  |  UTF-8  |  -  |
 
-
 ## Packaging Files
 
 Files must be organized according to the structure
 
 * {Content Name}
-	* ArchiveOriginals
-	* EditMasters
-	* ServiceCopies
-	* Images
+  * ArchiveOriginals
+  * EditMasters
+  * ServiceCopies
+  * Images
 
 There should be no additional folders.
 
@@ -197,38 +191,38 @@ There should be no additional folders.
 The following is an example of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format.
 
 * ncov421
-	* ArchiveOriginals
-		* myt_ncov421_wide_ao
-			* XDROOT
-		* myt_ncov421_close_ao.mp4
-	* EditMasters
-		* myt_ncov421_em.mov
-		* myt_ncov421_em.srt
-	* ServiceCopies
-		* myt_ncov421_wide_sc.mp4
-		* myt_ncov421_close_sc.mp4
-		* myt_ncov421_sc.mp4
-		* myt_ncov421_sc.srt
-	* Images
-		* myt_ncov421_titlecard.jpeg
-	* ProjectFiles
-		* myt_ncov421.prproj
+  * ArchiveOriginals
+    * myt_ncov421_wide_ao
+      * XDROOT
+    * myt_ncov421_close_ao.mp4
+  * EditMasters
+    * myt_ncov421_em.mov
+    * myt_ncov421_em.srt
+  * ServiceCopies
+    * myt_ncov421_wide_sc.mp4
+    * myt_ncov421_close_sc.mp4
+    * myt_ncov421_sc.mp4
+    * myt_ncov421_sc.srt
+  * Images
+    * myt_ncov421_titlecard.jpeg
+  * ProjectFiles
+    * myt_ncov421.prproj
 
 The following is an example of an oral history captured using a cellphone app.
 
 * 20210223interviewjanedoe
-	* ArchiveOriginals
-		* mao_20210223interviewjanedoe_primary_ao.mp3
-		* mao_20210223interviewjanedoe_backup_ao.mp3
-	* EditMasters
-		* mao_20210223interviewjanedoe_em.mp3
-	* ServiceCopies
-		* mao_20210223interviewjanedoe_primary_sc.mp3
-		* mao_20210223interviewjanedoe_backup_sc.mp3
-		* mao_20210223interviewjanedoe_sc.mp3
-		* mao_20210223interviewjanedoe_trasncript.pdf
-	* Images
-		* mao_20210223interviewjanedoe_portrait.jpeg
-		* mao_20210223interviewjanedoe_interviewer.jpg
+  * ArchiveOriginals
+    * mao_20210223interviewjanedoe_primary_ao.mp3
+    * mao_20210223interviewjanedoe_backup_ao.mp3
+  * EditMasters
+    * mao_20210223interviewjanedoe_em.mp3
+  * ServiceCopies
+    * mao_20210223interviewjanedoe_primary_sc.mp3
+    * mao_20210223interviewjanedoe_backup_sc.mp3
+    * mao_20210223interviewjanedoe_sc.mp3
+    * mao_20210223interviewjanedoe_transcript.pdf
+  * Images
+    * mao_20210223interviewjanedoe_portrait.jpeg
+    * mao_20210223interviewjanedoe_interviewer.jpg
 
 Once organized according to this structure, files should be bagged according to the Library of Congress BagIt File Packaging Format. Specific instructions on how to bag files may be found in [Bagging Files](bagging-files) for submission.
