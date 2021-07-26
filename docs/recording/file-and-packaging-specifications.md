@@ -5,7 +5,7 @@ nav_order: 0
 parent: Recording
 ---
 
-The document outlines the specifications for born-digital media recorded for NYPL's collections.
+The document outlines the specifications for born-digital media recorded for NYPL's collections. If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
 
 ## File Classes
 
@@ -79,13 +79,13 @@ Archive original files should use whatever formats are native to the recording e
 |  Video Codec  |  Camera Native (H.264, MPEG-4)  |  |
 |  Chroma Subsampling  |  4:2:2 or greater  |  4:2:0  |
 |  Bit Depth  |  10 bit or greater  |  8 bit  |
-|  Bit Rate  |  20 Mbps or greater  |  5 Mbps or greater  |
-|  Frame Rate  |  29.97 fps or greater  |  24 fps  |
+|  Bit Rate  |  20 Mbps or greater  |  15 Mbps or greater  |
+|  Frame Rate  |  29.97 fps or greater  |  23.976 fps  |
 |  Frame Size  |  1080P or greater  |  720p  |
 |  Audio Codec  |  PCM, AC-3, AIFF  |  -  |
 |  Audio Bit Depth  |  16 bit or greater  |  -  |
 |  Audio Sampling Rate  |  44.1 kHz or greater  |  -  |
-|  Audio Channels  |  Stereo Pair  |  -  |
+|  Audio Channels  |  Stereo Pair(s)  |  -  |
 
 ### Edit Master Video Files
 
@@ -95,13 +95,13 @@ Archive original files should use whatever formats are native to the recording e
 |  Video Codec  |  ProRes 422 HQ or greater, DNxHD220x or greater  |  ProRes, DVCPro HD, XDCAM, Cineform  |
 |  Chroma Subsampling  |  4:2:2 or greater  |  4:2:0  |
 |  Bit Depth  |  10 bit or greater  |  8 bit  |
-|  Bit Rate  |  Matched to Archive Original  |  5 Mbps or greater  |
-|  Frame Rate  |  Matched to Archive Original  |  29.97 FPS or greater  |
+|  Bit Rate  |  Matched to Archive Original  |  10 Mbps or greater  |
+|  Frame Rate  |  Matched to Archive Original  |  23.976 FPS or greater  |
 |  Frame Size  |  Matched to Archive Original  |  720P or greater  |
 |  Audio Codec  |  PCM, AC-3, AIFF  |  -  |
 |  Audio Bit Depth  |  Matched to Archive Original  |  16 bit or greater  |
 |  Audio Sampling Rate  |  Matched to Archive Original  |  44.1 kHz or greater  |
-|  Audio Channels  |  Stereo Pair, Dolby  |  -  |
+|  Audio Channels  |  Stereo Pair(s), Dolby  |  -  |
 
 ### Service File Video Files
 
@@ -111,7 +111,7 @@ Service files should not be upsampled if their source files are under spec.
 |  -----------  |  -----------  |
 |  Container  |  MP4  |
 |  Video Codec  |  H.264  |
-|  Bit Rate  |  8 mbps or greater  |
+|  Bit Rate  |  8 Mbps or greater  |
 |  Frame Rate  |  29.97 FPS  |
 |  Frame Size  |  1080P  |
 |  Audio Codec  |  AAC  |
