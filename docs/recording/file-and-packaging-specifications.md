@@ -102,6 +102,7 @@ Archive original files should use whatever formats are native to the recording e
 |  Audio Bit Depth  |  Matched to Archive Original  |  16 bit or greater  |
 |  Audio Sampling Rate  |  Matched to Archive Original  |  44.1 kHz or greater  |
 |  Audio Channels  |  Stereo Pair(s), Dolby  |  -  |
+|  Audio Loudness  |  -23.0 or -24.0 LUFS  |  ±1.0 LU  |
 
 ### Service File Video Files
 
@@ -117,6 +118,7 @@ Service files should not be upsampled if their source files are under spec.
 |  Audio Codec  |  AAC  |
 |  Audio Bit Rate  |  256 kbps  |
 |  Audio Channels  |  Stereo Pair  |
+|  Audio Loudness  |  -23.0 or -24.0 LUFS  |  ±1.0 LU  |
 
 ## Audio Format Specifications
 
@@ -128,7 +130,7 @@ Service files should not be upsampled if their source files are under spec.
 |  Audio Codec  |  Recorder Native (PCM, AC3, AAC, MP3, FLAC)  |  -  |
 |  Bit Depth  |  Recorder Native (16 bit or more)  |  -  |
 |  Sampling Rate  |  Recorder Native (44.1 kHz or more)  |  -  |
-|  Bit Rate  |  Recorder Native  (192 kbps or more)  |  128 kbps  |
+|  Bit Rate  |  Recorder Native  (320 kbps or more)  |  128 kbps  |
 |  Audio Channels  |  Recorder Native (Mono, Stereo) |  -  |
 
 ### Edit Master Files
@@ -141,6 +143,7 @@ Service files should not be upsampled if their source files are under spec.
 |  Sampling Rate  |  44.1, 48, or 96 kHz  |  -  |
 |  Bit Rate  |  Matched to Archive Original  |  128 kbps  |
 |  Audio Channels  |  Recorder Native, Stereo Pair  |  -  |
+|  Audio Loudness  |  -23.0 or -24.0 LUFS  |  ±1.0 LU  |
 
 ### Service Copy Audio Files
 
@@ -150,8 +153,9 @@ Service files should not be upsampled if their source files are under spec.
 |  -----------  |  -----------  |
 |  Container  |  MP4 (M4A)  |
 |  Video Codec  |  AAC  |
-|  Bit Rate  |  192 kbps  |
+|  Bit Rate  |  320 kbps  |
 |  Audio Channels  |  Stereo Pair  |
+|  Audio Loudness  |  -23.0 or -24.0 LUFS  |  ±1.0 LU  |
 
 ### Image Files
 
