@@ -4,6 +4,14 @@ title: File and Packaging Specifications
 nav_order: 0
 parent: Recording
 ---
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 The document outlines the specifications for born-digital media recorded for NYPL's collections. If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
 
