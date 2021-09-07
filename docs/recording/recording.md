@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Summary
-nav_order: 7
-parent: Recording
+title: Recording
+nav_order: 2
+has_children: true
 ---
-# Summary for videographers and recordists
+
+# For videographers and recordists
 
 This section is primarily written for those recording audio or video for the NYPL projects named in the [about page](../../){:target="_blank"}. It includes pages on file/folder specifications, how to create bags, and how to submit files to NYPL.
 
