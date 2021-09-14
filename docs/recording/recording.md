@@ -48,4 +48,3 @@ Some examples of filenames using all elements of this file naming specification 
 **[Files are transferred to NYPL](https://nypl.github.io/born-digital-docs/docs/recording/transferring.html){:target="_blank"}**
 - Network transfer (preferred) Google Drive
 - Or shipping of hard drives if bandwidth is limited Shipping
-- 
