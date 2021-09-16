@@ -19,11 +19,12 @@ Once a videographer or recordist has completed their recordings they will do the
 - and transfer them to NYPL either by [shipping a hard drive](https://nypl.github.io/born-digital-docs/docs/recording/shipping.html){:target="_blank"} or through [Google drive uploads](https://nypl.github.io/born-digital-docs/docs/recording/transferring.html){:target="_blank"}. 
 
 **[Directory structure for files is created](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications.html){:target="_blank"}**
-{Content Name}
-    ArchiveOriginals- the original, raw unedited footage recorded
-    EditMasters- edited, completed masters 
-    ServiceCopies- transcoded files for each of the archive originals and edit master files, used viewing access
-    Images (optional)- still images captured to accompany the audio or video documentation
+
+######{Content Name}
+    *ArchiveOriginals*- the original, raw unedited footage recorded
+    *EditMasters*- edited, completed masters 
+    *ServiceCopies*- transcoded files for each of the archive originals and edit master files, used viewing access
+    *Images (optional)*- still images captured to accompany the audio or video documentation
 
 **[Files are renamed](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications.html){:target="_blank"}** 
 Some examples of filenames using all elements of this file naming specification in order:
@@ -48,4 +49,3 @@ Some examples of filenames using all elements of this file naming specification 
 **[Files are transferred to NYPL](https://nypl.github.io/born-digital-docs/docs/recording/transferring.html){:target="_blank"}**
 - Network transfer (preferred) Google Drive
 - Or shipping of hard drives if bandwidth is limited Shipping
-- 
