@@ -202,39 +202,43 @@ There should be no additional folders.
 
 The following is an example of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format.
 
-* ncov421
-  * ArchiveOriginals
-    * myt_ncov421_wide_ao
-      * XDROOT
-    * myt_ncov421_close_ao.mp4
-  * EditMasters
-    * myt_ncov421_em.mov
-    * myt_ncov421_em.srt
-  * ServiceCopies
-    * myt_ncov421_wide_sc.mp4
-    * myt_ncov421_close_sc.mp4
-    * myt_ncov421_sc.mp4
-    * myt_ncov421_sc.srt
-  * Images
-    * myt_ncov421_titlecard.jpeg
-  * ProjectFiles
-    * myt_ncov421.prproj
+```
+ncov421
+├── ArchiveOriginals
+│   ├── myt_ncov421_close_ao.mp4
+│   └── myt_ncov421_wide_ao
+│       └── XDROOT
+├── EditMasters
+│   ├── myt_ncov421_em.mov
+│   └── myt_ncov421_em.srt
+├── ServiceCopies
+│   ├── myt_ncov421_close_sc.mp4
+│   ├── myt_ncov421_sc.mp4
+│   ├── myt_ncov421_sc.srt
+│   └── myt_ncov421_wide_sc.mp4
+├── Images
+│   └── myt_ncov421_titlecard.jpg
+└── ProjectFiles
+    └── myt_ncov421.prproj
+```
 
 The following is an example of an oral history captured using a cellphone app.
 
-* 20210223interviewjanedoe
-  * ArchiveOriginals
-    * mao_20210223interviewjanedoe_primary_ao.mp3
-    * mao_20210223interviewjanedoe_backup_ao.mp3
-  * EditMasters
-    * mao_20210223interviewjanedoe_em.mp3
-  * ServiceCopies
-    * mao_20210223interviewjanedoe_primary_sc.mp3
-    * mao_20210223interviewjanedoe_backup_sc.mp3
-    * mao_20210223interviewjanedoe_sc.mp3
-    * mao_20210223interviewjanedoe_transcript.pdf
-  * Images
-    * mao_20210223interviewjanedoe_portrait.jpeg
-    * mao_20210223interviewjanedoe_interviewer.jpg
+```
+20210223interviewjanedoe
+├── ArchiveOriginals
+│   ├── mao_20210223interviewjanedoe_backup_ao.mp3
+│   └── mao_20210223interviewjanedoe_primary_ao.mp3
+├── EditMasters
+│   └── mao_20210223interviewjanedoe_em.mp3
+├── ServiceCopies
+│   ├── mao_20210223interviewjanedoe_backup_sc.mp3
+│   ├── mao_20210223interviewjanedoe_primary_sc.mp3
+│   ├── mao_20210223interviewjanedoe_sc.mp3
+│   └── mao_20210223interviewjanedoe_transcript.pdf
+└── Images
+    ├── mao_20210223interviewjanedoe_interviewer.jpg
+    └── mao_20210223interviewjanedoe_portrait.jpg
+```
 
 Once organized according to this structure, files should be bagged according to the Library of Congress BagIt File Packaging Format. Specific instructions on how to bag files may be found in [Bagging Files](bagging-files) for submission.
