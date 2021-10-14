@@ -33,10 +33,6 @@ Once a videographer or recordist has completed their recordings they will do the
 └── ProjectFiles (optional, files produced by NLEs)
     └── ...
 ```
-    *ArchiveOriginals*- the original, raw unedited footage recorded
-    *EditMasters*- edited, completed masters 
-    *ServiceCopies*- transcoded files for each of the archive originals and edit master files, used viewing access
-    *Images (optional)*- still images captured to accompany the audio or video documentation
 
 **[Files are renamed](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications.html){:target="_blank"}** 
 Some examples of filenames using all elements of this file naming specification in order:
