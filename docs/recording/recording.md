@@ -20,7 +20,19 @@ Once a videographer or recordist has completed their recordings they will do the
 
 **[Directory structure for files is created](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications.html){:target="_blank"}**
 
+```
 ######{Content Name}
+├── ArchiveOriginals (required, the original, raw unedited footage recorded)
+│   └── ...
+├── EditMasters (required, completed masters)
+│   └── ...
+├── ServiceCopies (required, transcoded files for each of the archive originals and edit master files, used for viewing access)
+│   └── ...
+├── Images (optional, still images captured to accompany the audio or video documentation )
+│   └── ...
+└── ProjectFiles (optional, files produced by NLEs)
+    └── ...
+```
     *ArchiveOriginals*- the original, raw unedited footage recorded
     *EditMasters*- edited, completed masters 
     *ServiceCopies*- transcoded files for each of the archive originals and edit master files, used viewing access
