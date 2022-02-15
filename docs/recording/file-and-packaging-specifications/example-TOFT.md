@@ -7,17 +7,17 @@ nav_order: 1
 ---
 
 ## Example TOFT Package Specifications
-The document outlines file and packaging specifications for recording for TOFT. If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
+The document outlines file and packaging specifications for recording for Theatre on Film and Tape (TOFT). If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
 
 ## File Classes
 
-* Archive Original (AO): (Required)
-* Edit Masters (EM): (Required)
-* Service Copies (SC): (Required ONLY for Edit Masters)
-* Images: (N/A)
-* Project Files (Optional): (N/A)
-* Captions: Maybe
-* Transcripts: (N/A)
+* Archive Original (AO): **Required**
+* Edit Masters (EM): **Required**
+* Service Copies (SC): **Required for both Archive Originals and Edit Masters** 
+* Images: N/A
+* Project Files: N/A
+* Captions: Maybe 
+* Transcripts: N/A
 
 ## Example with only required elements
 
@@ -35,6 +35,8 @@ ncov421
 │   └── myt_ncov421_em.mov
 └── ServiceCopies
     └── myt_ncov421_sc.mp4
+│   ├── myt_ncov421_close_sc.mp4
+│   └── myt_ncov421_wide_sc.mp4    
 ```
 
 
@@ -56,5 +58,7 @@ ncov421
 └── ServiceCopies
     ├── myt_ncov421_sc.srt
     └── myt_ncov421_sc.mp4
+│   ├── myt_ncov421_close_sc.mp4
+│   └── myt_ncov421_wide_sc.mp4      
 
 ```
