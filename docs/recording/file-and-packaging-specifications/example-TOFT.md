@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Example TOFT Package
-nav_order: 0
 parent: File and Packaging Specifications
+grand_parent: Recording
+nav_order: 1
 ---
 
 ## Example TOFT Package Specifications

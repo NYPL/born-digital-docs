@@ -3,6 +3,7 @@ layout: default
 title: File and Packaging Specifications
 nav_order: 0
 parent: Recording
+has_children: true 
 ---
 <details open markdown="block">
   <summary>
