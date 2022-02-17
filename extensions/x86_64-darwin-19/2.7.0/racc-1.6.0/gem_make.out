@@ -1,0 +1,17 @@
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/racc-1.6.0/ext/racc/cparse
+/Users/djonathan/.rbenv/versions/2.7.2/bin/ruby -I /Users/djonathan/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220217-13837-5sdb66.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220217-13837-1p9kmqi/racc

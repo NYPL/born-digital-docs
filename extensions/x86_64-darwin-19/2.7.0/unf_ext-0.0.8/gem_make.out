@@ -1,0 +1,16 @@
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/unf_ext-0.0.8/ext/unf_ext
+/Users/djonathan/.rbenv/versions/2.7.2/bin/ruby -I /Users/djonathan/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220217-13837-dkb6hf.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20220217-13837-sm4hr7
