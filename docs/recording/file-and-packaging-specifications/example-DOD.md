@@ -35,8 +35,8 @@ ncov421
 │   └── myt_ncov421_em.mov
 └── ServiceCopies
     └── myt_ncov421_sc.mp4
-│   ├── myt_ncov421_close_sc.mp4
-│   └── myt_ncov421_wide_sc.mp4    
+    ├── myt_ncov421_close_sc.mp4
+    └── myt_ncov421_wide_sc.mp4    
 ```
 
 
@@ -57,8 +57,8 @@ ncov421
 │   └── myt_ncov421_em.mov
 └── ServiceCopies
     ├── myt_ncov421_sc.srt
-    └── myt_ncov421_sc.mp4
-│   ├── myt_ncov421_close_sc.mp4
-│   └── myt_ncov421_wide_sc.mp4      
+    ├── myt_ncov421_sc.mp4
+    ├── myt_ncov421_close_sc.mp4
+    └── myt_ncov421_wide_sc.mp4      
 
 ```

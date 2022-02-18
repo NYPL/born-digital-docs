@@ -1,5 +1,5 @@
 current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/eventmachine-1.2.7/ext/fastfilereader
-/Users/djonathan/.rbenv/versions/2.7.2/bin/ruby -I /Users/djonathan/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220217-13837-1mec4xc.rb extconf.rb
+/Users/djonathan/.rbenv/versions/2.7.2/bin/ruby -I /Users/djonathan/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220217-31813-nlvd4k.rb extconf.rb
 creating Makefile
 
 current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -13,4 +13,4 @@ linking shared-object fastfilereaderext.bundle
 
 current directory: /Users/djonathan/Documents/GitHub/born-digital-docs/gems/eventmachine-1.2.7/ext/fastfilereader
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220217-13837-d6xy8l
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220217-31813-2xyuo5

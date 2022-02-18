@@ -34,7 +34,7 @@ ncov421
 ├── EditMasters
 │   └── myt_ncov421_em.mov
 └── ServiceCopies
-│   └── myt_ncov421_sc.mp4   
+    └── myt_ncov421_sc.mp4   
 ```
 
 
@@ -54,7 +54,7 @@ ncov421
 │   ├── myt_ncov421_em.srt
 │   └── myt_ncov421_em.mov
 └── ServiceCopies
-│   ├── myt_ncov421_sc.srt
-│   └── myt_ncov421_sc.mp4     
+    ├── myt_ncov421_sc.srt
+    └── myt_ncov421_sc.mp4     
 
 ```
