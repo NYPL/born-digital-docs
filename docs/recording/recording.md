@@ -13,7 +13,7 @@ The specifications and processes have been written to accommodate a variety of s
 
 ## Checklist for videographers and recordists 
 Once a videographer or recordist has completed their recordings they will do the following: 
-- package their files according to the NYPL [file and packaging specifications](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications/file-and-packaging-specifications.html){:target="_blank"}, 
+- package their files according to the NYPL [file and packaging specifications](/file-and-packaging-specifications/file-and-packaging-specifications.md){:target="_blank"}, 
 - have their edits [reviewed](https://nypl.github.io/born-digital-docs/docs/recording/reviewing.html){:target="_blank"} by a curator, 
 - [bag their files](https://nypl.github.io/born-digital-docs/docs/recording/bagging-files.html){:target="_blank"}, 
 - and transfer them to NYPL either by [shipping a hard drive](https://nypl.github.io/born-digital-docs/docs/recording/shipping.html){:target="_blank"} or through [Google drive uploads](https://nypl.github.io/born-digital-docs/docs/recording/transferring.html){:target="_blank"}. 
