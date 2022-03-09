@@ -34,7 +34,7 @@ Once a videographer or recordist has completed their recordings they will do the
     └── ...
 ```
 
-**[Files are renamed](https://nypl.github.io/born-digital-docs/docs/recording/file-and-packaging-specifications.html){:target="_blank"}** 
+**[Files are renamed](/file-and-packaging-specifications/file-and-packaging-specifications.md#file-names){:target="_blank"}** 
 Some examples of filenames using all elements of this file naming specification in order:
 
 * myt_ncov421_wide_ao - folder containing the AVCHD files for the wide shot of acquisition ncov420 by the Dance division
