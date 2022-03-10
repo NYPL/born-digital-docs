@@ -13,7 +13,7 @@ The document outlines file and packaging specifications for recording for Theatr
 
 * Archive Original (AO): **Required**
 * Edit Masters (EM): **Required**
-* Service Copies (SC): **Required for Archive Originals**
+* Service Copies (SC): **Required for Edit Masters**
 * Images: N/A
 * Project Files: N/A
 * Captions: If requested by Curator. 
