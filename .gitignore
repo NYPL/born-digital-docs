@@ -1,3 +1,4 @@
+# Jekyll ignores
 *.gem
 .bundle
 .ruby-version
@@ -9,4 +10,10 @@ _sass
 _includes
 Gemfile.lock
 node_modules
+
+# VS Code ignores
+.prettier*
+.stylelint*
+
+# System ignores
 .DS_Store
