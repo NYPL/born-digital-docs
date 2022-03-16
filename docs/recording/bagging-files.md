@@ -14,7 +14,7 @@ The amount of time needed for a bag to be created, will depend on the speed and 
 
 ## Arrange the files into folders
 
-Files must be organized according to the specified directory structure. For more information on this specification, please refer to the Born Digital Documentation: [File and Packaging Specifications](file-and-packaging-specifications.html) page. There should not be additional folders than those outlined below.
+Files must be organized according to the specified directory structure. For more information on this specification, please refer to the Born Digital Documentation: [File and Packaging Specifications](/file-and-packaging-specifications/file-and-packaging-specifications.md){:target="_blank"}page. There should not be additional folders than those outlined below.
 
 - {Content Name}
   - ArchiveOriginals
