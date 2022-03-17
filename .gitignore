@@ -1,9 +1,19 @@
+# Jekyll ignores
 *.gem
 .bundle
 .ruby-version
 .jekyll-cache
 .sass-cache
 _site
+_layouts
+_sass
+_includes
 Gemfile.lock
 node_modules
+
+# VS Code ignores
+.prettier*
+.stylelint*
+
+# System ignores
 .DS_Store
