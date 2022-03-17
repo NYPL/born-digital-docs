@@ -14,7 +14,7 @@ has_children: true
 {:toc}
 </details>
 
-The document outlines the specifications for born-digital media recorded for NYPL's collections. If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
+The document outlines the specifications for born-digital media recorded for NYPL's collections. We have also created example package specifications for [Theatre and Film and Tape (TOFT)](example-TOFT.md), [Dance Oral History (DOH)](example-DOH.md) and [Dance Original Documentation (DOD)](example-DOD.md). If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
 
 ## File Classes
 
