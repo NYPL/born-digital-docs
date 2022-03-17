@@ -49,7 +49,7 @@ nameofinterviewee
 ├── EditMasters
 │   └── myd_nameofinterviewee_em.mp4
 ├── ServiceCopies
-│   └── myd_jonathan_sc.mp4 
+│   └── myd_nameofinterviewee_sc.mp4 
 └── Images
     └── myd_nameofinterviewee_headshot.jpeg
 ```
