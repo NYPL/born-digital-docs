@@ -27,16 +27,16 @@ The following is an example file structure of a performance recorded with a Sony
 ```
 ncov421
 ├── ArchiveOriginals
-│   ├── myt_ncov421_close_ao.mp4
-│   └── myt_ncov421_wide_ao
+│   ├── myd_ncov421_close_ao.mp4
+│   └── myd_ncov421_wide_ao
 │       └── XDROOT
 │           └── ...   
 ├── EditMasters
-│   └── myt_ncov421_em.mov
+│   └── myd_ncov421_em.mov
 └── ServiceCopies
-    └── myt_ncov421_sc.mp4
-    ├── myt_ncov421_close_sc.mp4
-    └── myt_ncov421_wide_sc.mp4    
+    └── myd_ncov421_sc.mp4
+    ├── myd_ncov421_close_sc.mp4
+    └── myd_ncov421_wide_sc.mp4    
 ```
 
 
@@ -48,17 +48,17 @@ The following is an example file structure of a performance recorded with a Sony
 ```
 ncov421
 ├── ArchiveOriginals
-│   ├── myt_ncov421_close_ao.mp4
-│   └── myt_ncov421_wide_ao
+│   ├── myd_ncov421_close_ao.mp4
+│   └── myd_ncov421_wide_ao
 │       └── XDROOT
 │           └── ...   
 ├── EditMasters
-│   ├── myt_ncov421_em.srt
-│   └── myt_ncov421_em.mov
+│   ├── myd_ncov421_em.srt
+│   └── myd_ncov421_em.mov
 └── ServiceCopies
-    ├── myt_ncov421_sc.srt
-    ├── myt_ncov421_sc.mp4
-    ├── myt_ncov421_close_sc.mp4
-    └── myt_ncov421_wide_sc.mp4      
+    ├── myd_ncov421_sc.srt
+    ├── myd_ncov421_sc.mp4
+    ├── myd_ncov421_close_sc.mp4
+    └── myd_ncov421_wide_sc.mp4      
 
 ```
