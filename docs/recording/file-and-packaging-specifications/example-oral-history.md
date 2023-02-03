@@ -22,7 +22,7 @@ The page outlines file and packaging specifications for Oral History collections
 
 ## Example oral history package with minimum required elements
 
-The following is an example file structure of an oral history recorded in person.
+The following is an example file structure of an oral history.
 
 ```
 nameofinterviewee 
