@@ -20,9 +20,9 @@ The page outlines file and packaging specifications for Oral History collections
 * Transcripts: Optional
 * Releases: Optional
 
-## Example with audio oral history with minimum required elements
+## Example oral history package with minimum required elements
 
-The following is an example file structure of an oral history recorded in person. 
+The following is an example file structure of an oral history recorded in person.
 
 ```
 nameofinterviewee 
@@ -35,10 +35,9 @@ nameofinterviewee
     └── mao_nameofinterviewee_transcript.pdf
 ```
 
+## Example oral history package including optional elements
 
-## Example with video oral history with minimum required elements
-
-The following is an example file structure of an oral history recorded via web conferencing software.  
+The following is an example file structure of an oral history adding optional elements to minimum requirements.
 
 ```
 nameofinterviewee
