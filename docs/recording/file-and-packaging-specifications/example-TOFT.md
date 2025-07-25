@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 ## Example TOFT Package Specifications
-The document outlines file and packaging specifications for recording for Theatre on Film and Tape (TOFT). If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
+The document outlines file and packaging specifications for recordings for Theatre on Film and Tape (TOFT). If you have questions about the specifications please contact [Digital Preservation](mailto:digitalarchives@nypl.org) staff for guidance.
 
 ## File Classes
 
@@ -21,8 +21,7 @@ The document outlines file and packaging specifications for recording for Theatr
 
 ## Example with only required elements
 
-(to be reworded)
-The following is an example file structure of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format. This file structure uses just required file classes. 
+The following is an example file structure of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format. This folder structure uses just required file classes. 
 
 ```
 ncov421
@@ -40,8 +39,7 @@ ncov421
 
 ## Example with all required and optional elements
 
-(to be reworded)
-The following is an example file structure of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format. This file structure uses required and optional file classes.  
+The following is an example file structure of a performance recorded with a Sony camera capturing to XAVC and a GoPro capturing to its native format. This folder structure uses required and optional file classes.  
 
 ```
 ncov421
